@@ -1,0 +1,37 @@
+html {
+
+	margin-left:	100px;
+	margin-top:	30px;
+	width:		60ex;
+	
+	font:		16px/19px serif;
+	font-family:	Georgia, serif;
+}
+
+a {
+
+	color:		#9E2500;
+}
+
+a:visited {
+
+	color:		gray;
+}
+
+a:hover {
+
+	color:		maroon;
+}
+
+span {
+
+	display:	none;
+}
+
+h1 {
+
+	display:	block;
+	width:		145px;
+	height:		30px;
+	background:	url(head.png);
+}
