@@ -1,0 +1,41 @@
+body {
+    background: url(../img/paper.png) top left repeat-y;
+    background-attachment: fixed;
+    font: 16px/24px Georgia, serif;
+    color: white;
+}
+
+h1 {
+    text-indent: -300ex;
+    width: 279px;
+    height: 98px;
+    background: url(../img/heading.png);
+}
+
+h1, h2 {
+    font-family: Anton, sans-serif;
+    font-weight: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #ffcf39;
+}
+
+#lads {
+    width: 346px;
+    height: 528px;
+    background: url(../img/lads.png);
+}
+
+#scissors {
+    width: 40px;
+    height: 65px;
+    background: url(../img/scissors.png);
+}
+
+#content {
+    padding-bottom: 15px;
+}
+
+a {
+    color: #ffcf39;
+}

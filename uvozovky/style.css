@@ -1,0 +1,28 @@
+@import url(http://fonts.googleapis.com/css?family=Signika+Negative:300&subset=latin,latin-ext);
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+img {
+    position: fixed;
+    background: white;
+}
+
+#explanation {
+    margin-left: 425px;
+    border-left: 1px solid red;
+    padding: 20px;
+}
+
+ol {
+    margin-left: 0;
+    padding-left: 24px;
+}
+
+pre {
+    background: rgb(220, 220, 220);
+    padding: 5px;
+}

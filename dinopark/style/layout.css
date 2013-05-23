@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    position: fixed;
+    left: 30px;
+    top: 20px;
+    z-index: 0;
+}
+
+h2 {
+    clear: both;
+}
+
+#lads {
+    position: fixed;
+    z-index: 100;
+    top: 110px;
+    left: 10px;
+}
+
+#scissors {
+    position: fixed;
+    top: 480px;
+    left: 336px;
+}
+
+#content {
+    margin-left: 390px;
+    margin-top: 40px;
+    padding-right: 20px;
+    width: 570px;
+}
+
+#status {
+    position: fixed;
+    top: 650px;
+    left: 30px;
+    width: 300px;
+}

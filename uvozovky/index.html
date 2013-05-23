@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="utf-8">
+    <title>Jak správně psát české a anglické uvozovky</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="chart.png" alt="obrázek s příklady uvozovek a podobných znaků">
+    <div id="explanation">
+        <h1>Jak správně psát uvozovky</h1>
+        <p>Ve psaní uvozovek panuje veliký chaos, což je škoda, protože správně
+        psané uvozovky zjednodušují čtení textu, čistí krev, zpomalují stárnutí
+        a vůbec jsou projevem kulturního ducha. Na obrázku vlevo je vidět
+        očíslovaný obrázek českých a anglických uvozovek a příbuzných znaků,
+        následující seznam odpovídá jednotlivým případům a dodává, které znaky
+        na obrázku přesně jsou a jak je z počítače vyloudit.</p>
+
+        <p>
+        Lepší textové procesory sází kulaté a správné uvozovky samy od sebe, s apostrofy
+        jim člověk většinou musí pomoci ručně. Na webových stránkách je nejlepší používat
+        UTF-8 a uvozovky i další hezké znaky můžete sázet přímo, tedy bez entit.
+        </p>
+
+        <ol>
+            <li>
+                <p><em>České dvojité uvozovky</em></p>
+                <p>
+                Otevírací (<a href="http://www.fileformat.info/info/unicode/char/201e/">Unicode 201E</a>) má tvar 99 a je dole.<br>
+                Uzavírací (<a href="http://www.fileformat.info/info/unicode/char/201c/">Unicode 201C</a>) má tvar 66 a je nahoře.
+                </p>
+                <p>Windows: Alt+0132, Alt+0147. Mac (na české klávesnici): Alt+Shift+N, Alt+Shift+H.</p>
+            </li>
+            <li>
+                <p><em>České jednoduché uvozovky</em></p>
+                <p>
+                Otevírací (<a href="http://www.fileformat.info/info/unicode/char/201a/">Unicode 201A</a>) má tvar 9 a je dole.<br>
+                Uzavírací (<a href="http://www.fileformat.info/info/unicode/char/2018/">Unicode 2018</a>) má tvar 6 a je nahoře.
+                </p>
+                <p>Windows: Alt+0130, Alt+0145. Mac (na české klávesnici): Alt+N, Alt+H.</p>
+            </li>
+            <li>
+                <p><em>Anglické dvojité uvozovky</em></p>
+                <p>
+                Otevírací (<a href="http://www.fileformat.info/info/unicode/char/201c/">Unicode 201C</a>) má tvar 66 a je nahoře.<br>
+                Uzavírací (<a href="http://www.fileformat.info/info/unicode/char/201d/">Unicode 21D</a>) má tvar 99 a je nahoře.
+                </p>
+                <p>Windows: Alt+0147, Alt+0148. Mac (na české klávesnici): Alt+Shift+H, Alt+Shift+J.</p>
+            </li>
+            <li>
+                <p><em>Anglické jednoduché uvozovky</em></p>
+                <p>
+                Otevírací (<a href="http://www.fileformat.info/info/unicode/char/2018/">Unicode 2018</a>) má tvar 6 a je nahoře.<br>
+                Uzavírací (<a href="http://www.fileformat.info/info/unicode/char/2019/">Unicode 2019</a>) má tvar 9 a je nahoře.
+                </p>
+                <p>Windows: Alt+0145, Alt+0146. Mac (na české klávesnici): Alt+H, Alt+J.</p>
+            </li>
+            <li>
+                <p><em>Apostrof</em></p>
+                <p>
+                <a href="http://www.fileformat.info/info/unicode/char/2bc/">Unicode 2BC</a>,
+                má tvar 9 a je nahoře. Doporučuje se používat <a href="http://www.fileformat.info/info/unicode/char/2019/">Unicode 2019</a> (na obrázku).
+                </p>
+                <p>Windows: Alt+0146. Mac (na české klávesnici): Alt+J.</p>
+            </li>
+            <li>
+                <p><em>Dvojité rovné uvozovky (ASCII)</em></p>
+                <p>
+                <a href="http://www.fileformat.info/info/unicode/char/22/">Unicode 22</a>.
+                Používají se například ve zdrojových kódech programů, webových
+                stránek nebo interpretech příkazů:
+                </p>
+                <pre>&lt;img src="logo.png" alt=""/&gt;</pre>
+            </li>
+            <li>
+                <p><em>Obrácený apostrof</em></p>
+                <p>
+                <a href="http://www.fileformat.info/info/unicode/char/60/">Unicode 60</a>.
+                Používá se například v unixových interpretech příkazů nebo
+                konfiguraci sendmailu:
+                </p>
+                <pre>$ mkdir -p `dirname nahledy/Thassos/Potos.jpg`</pre>
+                <p>Obrácený apostrof je v ASCII, takže se jím někdy v ASCII
+                dokumentech simulují skutečné anglické uvozovky: ``In Business
+                Since 1993''.</p>
+            </li>
+            <li>
+                <p><em>Apostrof (ASCII)</em></p>
+                <p>
+                <a href="http://www.fileformat.info/info/unicode/char/27/">Unicode 27</a>.
+                Používá se v interpretech příkazů a zdrojových kódech:
+                </p>
+                <pre>find -name "*jpg" -print | sed 's/a\/b\///'</pre>
+            </li>
+            <li>
+                <p>Připomínky a opravy <a href="mailto:tomas.znamenacek@gmail.com">vítány</a>.
+                Poslední změna proběhla v květnu 2013.</p>
+            </li>
+        </ol>
+    </div>
+</body>
+</html>
