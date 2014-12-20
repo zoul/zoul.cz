@@ -43,20 +43,22 @@ function Clicker(interval, volume) {
     };
 }
 
-function Timer(interval, volume) {
+function Timer(id, interval, volume) {
 
     var slowClicker = new Clicker(interval, volume);
     var fastClicker = new Clicker(interval/3, volume);
-    var toggleInterval = Math.floor(Math.random() * 30 + 20);
+    var toggleInterval = Math.floor(Math.random() * 20 + 20);
+    var displayElement = document.getElementById('light' + id);
     var timerID = -1;
 
     var log = function(msg) {
-        console.log('Timer (@' + interval + ', toggle ' + toggleInterval + 's): ' + msg);
+        console.log('Timer #' + id + ' (@' + interval + ', toggle ' + toggleInterval + 's): ' + msg);
     };
 
     var slowPhase = function() {
         log('starting slow phase.');
         slowClicker.play();
+        displayElement.className = '';
         timerID = window.setTimeout(function() {
             slowClicker.stop();
             fastPhase();
@@ -66,6 +68,7 @@ function Timer(interval, volume) {
     var fastPhase = function() {
         log('starting fast phase.');
         fastClicker.play();
+        displayElement.className = 'walk';
         timerID = window.setTimeout(function() {
             fastClicker.stop();
             slowPhase();
@@ -88,8 +91,8 @@ function Timer(interval, volume) {
 }
 
 window.onload = function() {
-    var timer1 = new Timer(800, 1.0);
-    var timer2 = new Timer(790, 0.3);
+    var timer1 = new Timer(1, 800, 1.0);
+    var timer2 = new Timer(2, 790, 0.3);
     timer1.play();
     timer2.play();
     vis(function() {
