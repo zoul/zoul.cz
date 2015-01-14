@@ -1,0 +1,98 @@
+@import url(fonts/stylesheet.css);
+
+body {
+    background: #ff9300;
+    color: white;
+    font-family: 'Ladislav Regular', sans-serif;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    font-size: 40px;
+    line-height: 1.3em;
+}
+
+.container {
+    width: 960px;
+    margin: auto;
+    position: relative;
+    padding-top: 310px;
+    padding-bottom: 200px;
+}
+
+h1, h2, h3, .podtitul {
+    font-family: 'Ladislav Semibold', sans-serif;
+    text-transform: lowercase;
+}
+
+h1 {
+    font-size: 120px;
+}
+
+h2, h3 {
+    font-size: 60px;
+}
+
+.podtitul {
+    font-family: 'Ladislav Regular', sans-serif;
+    font-size: 40px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    text-indent: -1.35em;
+    margin-left: -1em;
+}
+
+li:before {
+    content: "— ";
+}
+
+.domicil {
+    font-family: "Ladislav Semibold";
+    font-style: normal;
+    display: block;
+}
+
+.domicil:after {
+    content: ": ";
+}
+
+.q {
+    font-family: "Ladislav Semibold";
+}
+
+#poke, #libik {
+    position: absolute;
+    background-size: cover;
+}
+
+#poke {
+    top: -90px;
+    left: 20px;
+    width: 190px;
+    height: 400px;
+    background-image: url(poke.png);
+}
+
+#libik {
+    top: -70px;
+    left: 400px;
+    width: 260px;
+    height: 380px;
+    background-image: url(libik.png);
+}
+
+a {
+    color: #0096ff;
+}
+
+hr {
+    border: 2px solid white;
+}
+
+iframe {
+    border: none;
+    width: 960px;
+    height: 540px;
+}
