@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="utf-8">
+    <title>Hesla</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="lib/jquery/dist/jquery.min.js"></script>
+    <script src="lib/blueimp-md5/js/md5.min.js"></script>
+    <script src="lib/passwords.js"></script>
+</head>
+<body>
+    <h1>Operace Artaban XII</h1>
+    <form onsubmit="return submitPassword()">
+        <input type="text" id="password" placeholder="řešení šifry">
+        <input type="button" value="Odeslat" onclick="submitPassword()">
+    </form>
+    <div class="output">Tady se objeví výsledky.</div>
+</body>
+</html>
+

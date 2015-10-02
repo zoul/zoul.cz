@@ -1,0 +1,13 @@
+{
+  "name": "Passwords",
+  "version": "1.0.0",
+  "authors": [
+    "Tomáš Znamenáček <tomas.znamenacek@gmail.com>"
+  ],
+  "description": "A support script for a cipher game",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "blueimp-md5": "js-md5#~1.1.1"
+  }
+}
