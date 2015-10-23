@@ -16,3 +16,7 @@ input[type="text"], input[type="password"] {
 .output {
     margin-top: 2ex;
 }
+
+small {
+    color: gray;
+}

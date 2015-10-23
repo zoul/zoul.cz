@@ -43,7 +43,7 @@ function submitPassword() {
         return;
     }
 
-    createCookie(nextRetryTimeCookie, currentUNIXTime+10000);
+    createCookie(nextRetryTimeCookie, currentUNIXTime + retryTime);
     container.html('Zkouším…');
 
     jQuery.ajax({
