@@ -28,7 +28,7 @@ function eraseCookie(name) {
 function submitPassword() {
 
     var nextRetryTimeCookie = 'nextRetryTime';
-    var retryTime = 10 * 60 * 1000;
+    var retryTime = 5 * 60 * 1000;
 
     var checkpointCode = document.getElementById("checkpoint").value.toLowerCase();
     var password = document.getElementById("password").value.toLowerCase();
