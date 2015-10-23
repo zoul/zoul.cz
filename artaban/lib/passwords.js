@@ -30,8 +30,8 @@ function submitPassword() {
     var nextRetryTimeCookie = 'nextRetryTime';
     var retryTime = 10 * 1000;
 
-    var checkpointCode = document.getElementById("checkpoint").value;
-    var password = document.getElementById("password").value;
+    var checkpointCode = document.getElementById("checkpoint").value.toLowerCase();
+    var password = document.getElementById("password").value.toLowerCase();
     var token = checkpointCode + "#" + password;
     var solutionURL = "solutions/" + md5(token) + ".html";
     var container = $('.output');
