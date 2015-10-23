@@ -7,6 +7,12 @@ h1 {
     font-weight: normal;
 }
 
-input[type="text"] {
+input[type="text"], input[type="password"] {
     margin-bottom: 2ex;
+    font-size: 100%;
+    color: gray;
+}
+
+.output {
+    margin-top: 2ex;
 }
