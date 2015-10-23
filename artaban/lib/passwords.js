@@ -14,3 +14,7 @@ function submitPassword() {
     });
     return false;
 }
+
+$(document).ready(function() {
+    $('#checkpoint').focus();
+})

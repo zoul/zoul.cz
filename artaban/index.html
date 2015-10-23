@@ -2,6 +2,7 @@
 <html lang="cs">
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Hesla</title>
     <link rel="stylesheet" href="style.css">
     <script src="lib/jquery/dist/jquery.min.js"></script>
@@ -11,10 +12,13 @@
 <body>
     <h1>Operace Artaban XII</h1>
     <form onsubmit="return submitPassword()">
-        <input type="text" id="password" placeholder="řešení šifry">
+        <label for="checkpoint">kód stanoviště:</label><br>
+        <input type="text" id="checkpoint"><br>
+        <label for="password">řešení šifry:</label><br>
+        <input type="text" id="password"><br>
         <input type="button" value="Odeslat" onclick="submitPassword()">
     </form>
-    <div class="output">Tady se objeví výsledky.</div>
+    <div class="output"></div>
 </body>
 </html>
 
