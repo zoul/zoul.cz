@@ -30,13 +30,13 @@ function submitPassword() {
     var nextRetryTimeCookie = 'nextRetryTime';
     var retryTime = 5 * 60 * 1000;
 
+    var currentUNIXTime = (new Date()).getTime();
     var checkpointCode = document.getElementById("checkpoint").value.toLowerCase();
     var password = document.getElementById("password").value.toLowerCase();
     var token = checkpointCode + "#" + password;
-    var solutionURL = "solutions/" + md5(token) + ".html";
+    var solutionURL = "solutions/" + md5(token) + ".html?" + currentUNIXTime;
     var container = $('.output');
 
-    var currentUNIXTime = (new Date()).getTime();
     var minRetryTime = readCookie(nextRetryTimeCookie);
     if (minRetryTime != null && currentUNIXTime < minRetryTime) {
         container.html('Na další pokus je příliš brzy, ještě si počkejte.');
