@@ -53,7 +53,7 @@ function submitPassword() {
             eraseCookie(nextRetryTimeCookie);
         },
         error: function() {
-            container.html('Máte špatně kód stanoviště, heslo, nebo obojí.');
+            container.html('Máte špatně kód stanoviště, heslo, nebo obojí. Případně hodně mizerný Internet.');
         },
     });
     return false;
