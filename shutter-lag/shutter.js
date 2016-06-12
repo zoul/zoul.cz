@@ -62,7 +62,7 @@ function updateCounter() {
 }
 
 var counterTimer = new Timer(2000, updateCounter)
-var clockTimer = new Timer(100, updateClock)
+var clockTimer = new Timer(50, updateClock)
 
 window.onload = function() {
     resetClock()
