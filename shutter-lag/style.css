@@ -1,0 +1,25 @@
+body {
+    font-family: Helvetica;
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+
+#counter {
+    text-align: center;
+    font-size: 40vh;
+}
+
+#clock {
+    text-align: center;
+    font-size: 10vh;
+    margin-bottom: 30px;
+}
+
+.now {
+    color: red;
+}
+
+#text {
+    line-height: 1.4em;
+    color: gray;
+}
