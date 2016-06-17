@@ -43,7 +43,7 @@ function updateCounter() {
 
     var counterDiv = document.getElementById('counter')
     var previousValue = counterDiv.innerHTML
-    var glyphs = ['☂', '♠︎', '♣︎', '♥︎', '♦︎']
+    var glyphs = ['♥︎', '♠︎', '♣︎', '♦︎']
 
     do {
         var index = Math.floor(Math.random()*10 % glyphs.length)
