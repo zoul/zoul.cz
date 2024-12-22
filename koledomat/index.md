@@ -256,7 +256,7 @@ Tiše a ochotně\
 purpura na plotně\
 voní, stále voní,\
 nikdo si nevšímá\
-jak život mění se v dým.\
+jak život mění se v dým.
 
 Snad jenom v podkroví\
 básníci bláhoví\
@@ -452,7 +452,7 @@ Now
 
 Šla Maria do kláštera\
 šla Maria do kláštera
-Tam synáčka porodila\
+Tam synáčka porodila
 
 Porodila i povila\
 Porodila i povila,\
