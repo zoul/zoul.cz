@@ -2,7 +2,7 @@
 bagr: lopata
 ---
 
-# Byla cesta
+# 1. Byla cesta
 
 Byla cesta, byla ušlapaná,\
 byla cesta, byla ušlapaná,\
@@ -23,7 +23,7 @@ Nechoď sestro, nechoď do kostela,\
 povídajú, povídajú,\
 že porodíš syna.
 
-# Čas radosti veselosti
+# 2. Čas radosti veselosti
 
 Čas radosti veselosti\
 světu nastal nyní
@@ -43,7 +43,7 @@ A proto šplesejme\
 všichni se radujme\
 pacholátku nemluvnátku zpívejme.
 
-# Den přeslavný
+# 3. Den přeslavný
 
 Den přeslavný jest k nám přišel,\
 v němž má býti každý vesel.\
@@ -60,7 +60,7 @@ v němž má býti každý vesel.\
 Radujme se, veselme se,\
 v tomto novém roce.
 
-# Chtíc aby spal
+# 4. Chtíc aby spal
 
 Chtíc, aby spal, tak zpívala synáčkovi\
 Matka, jež ponocovala, miláčkovi:\
@@ -77,7 +77,7 @@ kolébat bude matička, nynej hbitě!\
 Spi, synáčku! Umlkněte andělové,\
 se mnou k Bohu přiklekněte, národové!
 
-# Já bych rád k betlému
+# 5. Já bych rád k betlému
 
 Já bych rád k Betlému,\
 k Ježíšku malému.\
@@ -93,7 +93,7 @@ ku, kuku\
 ku, kuku.\
 Zdráv buď (již) Ježíšku!
 
-# Já malý přicházím
+# 6. Já malý přicházím
 
 Já malý přicházím koledovat,\
 co umím o Kristu prozpěvovat,\
@@ -115,7 +115,7 @@ a na mé zpívání nefoukejte!\
 Až větší budu, líp zpívat budu,\
 jen počkejte!
 
-# Kristus pán se narodil
+# 7. Kristus pán se narodil
 
 Kristus pán se narodil,\
 Kristus pán se narodil,\
@@ -132,7 +132,7 @@ půjdem spolu ku dvoru,\
 budem zpívať o Bohu,\
 budem zpívať o Bohu.
 
-# Narodil se Kristus pán
+# 8. Narodil se Kristus pán
 
 Narodil se Kristus Pán, veselme se,\
 z růže kvítek vykvet nám, radujme se.\
@@ -156,7 +156,7 @@ nám, nám narodil se.\
 Z života čistého, z rodu královského\
 nám, nám narodil se.
 
-# Nesem vám noviny
+# 9. Nesem vám noviny
 
 Nesem vám noviny, poslouchejte,\
 z betlémské krajiny, pozor dejte.\
@@ -181,7 +181,7 @@ narození Páně ohlašují,\
 že jest narozen, v jeslích položen,\
 že jest narozen, v jeslích položen — oznamují.
 
-# Půjdem spolu do Betléma
+# 10. Půjdem spolu do Betléma
 
 Půjdem spolu do Betléma,\
 dujdaj, dujdaj, dujdaj dá!
@@ -223,7 +223,7 @@ Já tě budu kolíbati,\
 Ježíšku panáčku!\
 Já tě budu kolíbat!
 
-# Pásli ovce Valaši
+# 11. Pásli ovce Valaši
 
 Pásli ovce valaši\
 pri Betlemském salaši.\
@@ -250,7 +250,7 @@ svatý Josef mu zpěvá.\
 Hajdom hajdom tydlidom,\
 hajdom hajdom tydlidom
 
-# Purpura
+# 12. Purpura
 
 Tiše a ochotně\
 purpura na plotně\
@@ -276,7 +276,7 @@ voní, stále voní,\
 po ní k nám vklouzlo\
 to tajemné kouzlo Vánoc.
 
-# Slyšte, slyšte, pastuškové
+# 13. Slyšte, slyšte, pastuškové
 
 Slyšte, slyšte pastuškové,\
 jaké znějí zpěvy nové\
@@ -293,7 +293,7 @@ a na Pána jsou dýchali,\
 zahřívali nemluvňátko,\
 roztomilé pacholátko.
 
-# Štědrej večír nastal
+# 14. Štědrej večír nastal
 
 Štědrej večer nastal,\
 Štědrej večer nastal,\
@@ -310,7 +310,7 @@ panímáma vstala,\
 koledy nám dala,\
 koledy nám dala.
 
-# Štědrýho dne o půlnoci
+# 15. Štědrýho dne o půlnoci
 
 Štedrýho dne o půlnoci\
 šli od východu mudrci.\
@@ -338,7 +338,7 @@ bude mu dělat\
 muziku libou,\
 veselou.
 
-# Štěstí, zdraví, pokoj svatý
+# 16. Štěstí, zdraví, pokoj svatý
 
 Štěstí, zdraví, pokoj svatý vinšujeme vám,\
 nejprv panu hospodáři pak našim dítkám.\
@@ -356,7 +356,7 @@ Ještě musím do Betléma dítko kolíbat.\
 Dítko to je bohatý, v nebi vám to zaplatí,\
 že se budete po smrti s ním radovati.
 
-# Tichá noc
+# 17. Tichá noc
 
 Tichá noc, svatá noc,\
 jala lid v blahý klid.\
@@ -372,7 +372,7 @@ zní již z výsosti, z všech země stran:\
 „Vám je dnes spasitel dán;\
 přišel Kristus Pán!“
 
-# V půlnoční hodinu
+# 18. V půlnoční hodinu
 
 V půlnoční hodinu anděl se zjevuje,\
 radostnou novinu pastýřům zvěstuje.
@@ -383,7 +383,7 @@ Kristus se narodil z Matičky přečisté.
 Pastýři vstávejte pospěšte k Betlému,\
 zprávu tu povězte po cestě každému.
 
-# White Xmas
+# 19. White Xmas
 
 I’m dreaming of a white Christmas\
 Just like the ones I used to know\
@@ -396,7 +396,7 @@ With every Christmas card i write\
 May your days be merry and bright\
 And may all your Christmases be white.
 
-# Happy Xmas, war is over!
+# 20. Happy Xmas, war is over!
 
 So, this is Christmas\
 And what have you done?\
@@ -448,7 +448,7 @@ If you want it\
 War is over\
 Now
 
-# Myšlenka a skutek
+# 21. Myšlenka a skutek
 
 Šla Maria do kláštera\
 šla Maria do kláštera
