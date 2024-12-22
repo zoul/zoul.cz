@@ -1,5 +1,5 @@
 ---
-bagr: lopata
+title: Koledomat
 ---
 
 # 1. Byla cesta
