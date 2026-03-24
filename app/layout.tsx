@@ -16,7 +16,9 @@ export default function RootLayout({
       <head>
         <link rel="me" href="https://boskovice.social/@zoul" />
       </head>
-      <body>{children}</body>
+      <body>
+        <main>{children}</main>
+      </body>
     </html>
   );
 }

@@ -1,0 +1,10 @@
+body {
+  padding: 40px;
+  font-family: sans-serif;
+  line-height: 1.4em;
+}
+
+main {
+  max-width: 65ch;
+  margin: auto;
+}
