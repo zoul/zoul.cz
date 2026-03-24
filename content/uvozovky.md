@@ -1,3 +1,6 @@
+---
+title: Jak správně psát uvozovky
+---
 # Jak správně psát uvozovky
 ## České „dvojité“ uvozovky
 Otevírací ([Unicode 201E](http://www.fileformat.info/info/unicode/char/201E)) má tvar 99 a je dole, uzavírací ([Unicode 201C](http://www.fileformat.info/info/unicode/char/201C)) má tvar 66 a je nahoře. Windows: Alt+0132, Alt+0147. Mac (na české klávesnici): Alt+Shift+N, Alt+Shift+H.

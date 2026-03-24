@@ -20,6 +20,8 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "typescript": "^5"
+    "gray-matter": "^4.0.3",
+    "typescript": "^5",
+    "typescript-json-decoder": "^1.0.11"
   }
 }
