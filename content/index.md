@@ -1,4 +1,4 @@
 ---
 title: Tomáš Znamenáček
 ---
-Dělám věci, občas to funguje, občas ne.
+Ahoj, já jsem Tomáš. Dělám věci. Občas to funguje, občas ne.
