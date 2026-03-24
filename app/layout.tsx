@@ -15,6 +15,12 @@ export default function RootLayout({
     <html lang="cs">
       <head>
         <link rel="me" href="https://boskovice.social/@zoul" />
+        <meta name="fediverse:creator" content="@zoul@boskovice.social" />
+        <script
+          data-domain="zoul.cz"
+          src="https://plausible.io/js/script.js"
+          defer
+        />
       </head>
       <body>
         <main>{children}</main>
