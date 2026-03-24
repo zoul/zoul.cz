@@ -40,7 +40,7 @@ jobs:
         run: npm ci
       - name: Download content
         run: |
-          npx ob sync-setup --path vault --device-name GitHub --vault $CONTENT_VAULT_ID --password $CONTENT_VAULT_PASSWORD`
+          npx ob sync-setup --path vault --device-name GitHub --vault $CONTENT_VAULT_ID --password $CONTENT_VAULT_PASSWORD
           npx ob sync --path vault
           mv vault/Web/content .
           rm -rf vault
