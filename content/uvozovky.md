@@ -1,5 +1,5 @@
 ---
-title: Jak správně psát uvozovky
+title: Jak správně psát české a anglické uvozovky
 ---
 # Jak správně psát uvozovky
 ## České „dvojité“ uvozovky
