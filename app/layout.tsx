@@ -4,6 +4,9 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Tomáš Znamenáček",
   description: "Dělám věci, občas to funguje, občas ne",
+  openGraph: {
+    images: "https://i.ohlasy.info/i/bce5f08a.jpg",
+  },
 };
 
 export default function RootLayout({
