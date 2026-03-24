@@ -22,8 +22,12 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  build:
+  setup:
     runs-on: ubuntu-latest
+    env:
+      OBSIDIAN_AUTH_TOKEN: ${{ secrets.OBSIDIAN_AUTH_TOKEN }}
+      CONTENT_VAULT_ID: ${{ secrets.CONTENT_VAULT_ID }}
+      CONTENT_VAULT_PASSWORD: ${{ secrets.CONTENT_VAULT_PASSWORD }}
     steps:
       - name: Checkout
         uses: actions/checkout@v6
@@ -34,6 +38,17 @@ jobs:
           cache: 'npm'
       - name: Install dependencies
         run: npm ci
+      - name: Download content
+        run: |
+          npx ob sync-setup --path vault --device-name GitHub --vault $CONTENT_VAULT_ID --password $CONTENT_VAULT_PASSWORD`
+          npx ob sync --path vault
+          mv vault/Web/content .
+          rm -rf vault
+
+  build:
+    runs-on: ubuntu-latest
+    needs: setup
+    steps:
       - name: Setup Pages
         id: setup_pages
         uses: actions/configure-pages@v5
@@ -45,6 +60,7 @@ jobs:
         uses: actions/upload-pages-artifact@v4
         with:
           path: ./out
+
   deploy:
     environment:
       name: github-pages
