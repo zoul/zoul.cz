@@ -22,7 +22,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  setup:
+  build:
     runs-on: ubuntu-latest
     env:
       OBSIDIAN_AUTH_TOKEN: ${{ secrets.OBSIDIAN_AUTH_TOKEN }}
@@ -44,11 +44,6 @@ jobs:
           npx ob sync --path vault
           mv vault/Web/content .
           rm -rf vault
-
-  build:
-    runs-on: ubuntu-latest
-    needs: setup
-    steps:
       - name: Setup Pages
         id: setup_pages
         uses: actions/configure-pages@v5
