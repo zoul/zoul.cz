@@ -1,0 +1,1 @@
+Dělám věci, občas to funguje, občas ne.
