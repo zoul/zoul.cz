@@ -2,11 +2,12 @@ import { existsSync } from "node:fs";
 import { readFile } from "node:fs/promises";
 import { join } from "node:path";
 import Markdoc from "@markdoc/markdoc";
+import { image } from "@markdoc/markdoc/dist/src/schema";
 import matter from "gray-matter";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import React from "react";
-import { record, string } from "typescript-json-decoder";
+import { optional, record, string } from "typescript-json-decoder";
 import { getFilesRecursively } from "@/src/utils";
 
 type Params = {
@@ -48,11 +49,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
   const source = await slurp(path);
   const { data } = matter(source);
-  const { title } = decodeFrontmatter(data);
+  const { title, image, description } = decodeFrontmatter(data);
   return {
     title,
+    description,
     openGraph: {
       title,
+      images: image,
     },
   };
 }
@@ -64,4 +67,6 @@ const postPathForSlug = (slug: string) =>
 
 const decodeFrontmatter = record({
   title: string,
+  description: optional(string),
+  image: optional(string),
 });
