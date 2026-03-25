@@ -17,6 +17,8 @@ export default function RootLayout({
   return (
     <html lang="cs">
       <head>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="me" href="https://boskovice.social/@zoul" />
         <meta name="fediverse:creator" content="@zoul@boskovice.social" />
         <script

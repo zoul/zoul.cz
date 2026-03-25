@@ -3,8 +3,8 @@
 }
 
 body {
-  padding: 40px;
-  font-family: sans-serif;
+  padding: 20px;
+  font-family: Helvetica, sans-serif;
   line-height: 1.4em;
   color: light-dark(black, white);
   background-color: light-dark(white, black);
