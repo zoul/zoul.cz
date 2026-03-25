@@ -2,12 +2,19 @@
   color-scheme: light dark;
 }
 
+:root {
+  --color-bg: light-dark(white, black);
+  --color-text: light-dark(black, white);
+  --color-link: blue;
+  --color-silver: #eee;
+}
+
 body {
   padding: 20px;
   font-family: Helvetica, sans-serif;
   line-height: 1.4em;
-  color: light-dark(black, white);
-  background-color: light-dark(white, black);
+  color: var(--color-text);
+  background-color: var(--color-bg);
 }
 
 main {
@@ -23,9 +30,9 @@ h2 {
 a.heading-anchor {
   margin-left: 5px;
   text-decoration: none;
-  color: #eee;
+  color: var(--color-silver);
 
   &:hover {
-    color: blue;
+    color: var(--color-link);
   }
 }
