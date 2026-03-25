@@ -2,12 +2,12 @@ import { existsSync } from "node:fs";
 import { readFile } from "node:fs/promises";
 import { join } from "node:path";
 import Markdoc from "@markdoc/markdoc";
-import { image } from "@markdoc/markdoc/dist/src/schema";
 import matter from "gray-matter";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import React from "react";
 import { optional, record, string } from "typescript-json-decoder";
+import { markdownConfig } from "@/src/markdoc";
 import { getFilesRecursively } from "@/src/utils";
 
 type Params = {
@@ -26,9 +26,48 @@ export default async function PostPage({ params }: Props) {
   }
   const source = await slurp(path);
   const ast = Markdoc.parse(source);
-  const content = Markdoc.transform(ast);
-  return Markdoc.renderers.react(content, React);
+  const content = Markdoc.transform(ast, markdownConfig);
+  return Markdoc.renderers.react(content, React, { components: { Heading } });
 }
+
+//
+// Content Render
+//
+
+/** Custom heading component that generates an anchor to link to */
+const Heading = ({
+  id,
+  children,
+  level,
+}: {
+  children: React.ReactNode;
+  id: string | undefined;
+  level: number;
+}) => {
+  // biome-ignore lint/suspicious/noExplicitAny: keyof JSX.IntrinsicElements no longer works, whatever
+  const Tag = `h${level}` as any;
+  return (
+    <Tag id={id}>
+      {children}
+      {id && level > 1 && (
+        <a
+          href={`#${id}`}
+          style={{
+            marginLeft: "5px",
+            textDecoration: "none",
+            color: "#eee",
+          }}
+        >
+          #
+        </a>
+      )}
+    </Tag>
+  );
+};
+
+//
+// Data Generation
+//
 
 export async function generateStaticParams(): Promise<Params[]> {
   const toSlug = (path: string) =>
@@ -59,6 +98,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     },
   };
 }
+
+//
+// Helpers
+//
 
 const slurp = (path: string) => readFile(path, "utf-8");
 

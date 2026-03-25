@@ -15,3 +15,12 @@ export async function getFilesRecursively(dir: string): Promise<string[]> {
   }
   return found;
 }
+
+export const slugify = (s: string) =>
+  s
+    .toLocaleLowerCase() // Lowercase
+    .normalize("NFD") // Split accents into standalone characters, ě -> eˇ
+    .replace(/[\u0300-\u036f]/g, "") // Remove accent characters
+    .replace(/[^a-z0-9]+/g, "-") // Replace all except basic characters by hyphens
+    .replace(/^-*/, "") // Remove leading hyphens
+    .replace(/-*$/, ""); // Remove trailing hyphens
