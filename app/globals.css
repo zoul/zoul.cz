@@ -36,3 +36,9 @@ a.heading-anchor {
     color: var(--color-link);
   }
 }
+
+.table-of-contents {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}

@@ -6,6 +6,8 @@ description: Vánoční roadshow se zpěvy a harmoniem
 
 # Koledomat
 
+{% table_of_contents /%}
+
 ## 1. Byla cesta
 
 Byla cesta, byla ušlapaná,\

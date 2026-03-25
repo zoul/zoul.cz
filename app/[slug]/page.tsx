@@ -7,7 +7,11 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import React from "react";
 import { optional, record, string } from "typescript-json-decoder";
-import { markdownConfig } from "@/src/markdoc";
+import {
+  collectHeadings,
+  type HeadingMarker,
+  markdownConfig,
+} from "@/src/markdoc";
 import { getFilesRecursively } from "@/src/utils";
 
 type Params = {
@@ -27,7 +31,13 @@ export default async function PostPage({ params }: Props) {
   const source = await slurp(path);
   const ast = Markdoc.parse(source);
   const content = Markdoc.transform(ast, markdownConfig);
-  return Markdoc.renderers.react(content, React, { components: { Heading } });
+  const headings = collectHeadings(content);
+  return Markdoc.renderers.react(content, React, {
+    components: {
+      TableOfContents: TableOfContents(headings),
+      Heading,
+    },
+  });
 }
 
 //
@@ -57,6 +67,18 @@ const Heading = ({
     </Tag>
   );
 };
+
+const TableOfContents = (headingMarkers: Array<HeadingMarker>) => () => (
+  <ol className="table-of-contents">
+    {headingMarkers
+      .filter(({ level }) => level > 1)
+      .map((marker) => (
+        <li key={marker.id}>
+          <a href={`#${marker.id}`}>{marker.title}</a>
+        </li>
+      ))}
+  </ol>
+);
 
 //
 // Data Generation

@@ -8,7 +8,7 @@ import {
 import { slugify } from "./utils";
 
 /** Custom heading node that auto-generates heading IDs */
-export const heading: Schema = {
+const heading: Schema = {
   children: ["inline"],
   attributes: {
     id: { type: String },
@@ -20,6 +20,11 @@ export const heading: Schema = {
     const id = generateID(children, attributes);
     return new Tag("Heading", { ...attributes, id }, children);
   },
+};
+
+const table_of_contents: Schema = {
+  render: "TableOfContents",
+  selfClosing: true,
 };
 
 function generateID(
@@ -40,8 +45,42 @@ function generateID(
   return slugify(id);
 }
 
+export type HeadingMarker = {
+  level: number;
+  title: string;
+  id: string;
+};
+
+export function collectHeadings(
+  node: RenderableTreeNode,
+  sections: Array<HeadingMarker> = [],
+) {
+  if (Tag.isTag(node)) {
+    if (node.name === "Heading") {
+      const title = node.children[0];
+      if (typeof title === "string") {
+        sections.push({
+          level: node.attributes.level,
+          id: node.attributes.id,
+          title,
+        });
+      }
+    }
+    if (node.children) {
+      for (const child of node.children) {
+        collectHeadings(child, sections);
+      }
+    }
+  }
+
+  return sections;
+}
+
 export const markdownConfig: Config = {
   nodes: {
     heading,
+  },
+  tags: {
+    table_of_contents,
   },
 };
