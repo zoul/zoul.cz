@@ -1,20 +1,16 @@
 :root {
-  color-scheme: light dark;
-}
-
-:root {
-  --color-bg: light-dark(white, black);
-  --color-text: light-dark(black, white);
-  --color-link: blue;
-  --color-silver: #eee;
+  --color-beige: #eee0cb;
+  --color-dusk: #3a506b;
+  --color-black: #222;
+  --color-cherry: #9e1946;
 }
 
 body {
   padding: 20px;
   font-family: Helvetica, sans-serif;
   line-height: 1.4em;
-  color: var(--color-text);
-  background-color: var(--color-bg);
+  color: var(--color-black);
+  background-color: var(--color-beige);
 }
 
 main {
@@ -25,15 +21,24 @@ main {
 h1,
 h2 {
   line-height: 1.2em;
+  color: var(--color-dusk);
+}
+
+a {
+  color: var(--color-link);
+}
+
+a:hover {
+  color: var(--color-cherry);
 }
 
 a.heading-anchor {
   margin-left: 5px;
   text-decoration: none;
-  color: var(--color-silver);
+  opacity: 0.1;
 
   &:hover {
-    color: var(--color-link);
+    opacity: 1;
   }
 }
 
