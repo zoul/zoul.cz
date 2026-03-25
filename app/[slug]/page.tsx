@@ -50,14 +50,7 @@ const Heading = ({
     <Tag id={id}>
       {children}
       {id && level > 1 && (
-        <a
-          href={`#${id}`}
-          style={{
-            marginLeft: "5px",
-            textDecoration: "none",
-            color: "#eee",
-          }}
-        >
+        <a href={`#${id}`} className="heading-anchor">
           #
         </a>
       )}

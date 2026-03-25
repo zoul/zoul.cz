@@ -19,3 +19,13 @@ h1,
 h2 {
   line-height: 1.2em;
 }
+
+a.heading-anchor {
+  margin-left: 5px;
+  text-decoration: none;
+  color: #eee;
+
+  &:hover {
+    color: blue;
+  }
+}
