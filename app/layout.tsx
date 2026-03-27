@@ -16,19 +16,14 @@ const iosevka = localFont({
 });
 
 const lido = localFont({
-  src: "../public/LidoSTF.ttf",
   variable: "--lido",
+  src: [
+    { path: "../public/LidoSTF.ttf" },
+    { path: "../public/LidoSTFItalic.ttf", style: "italic" },
+  ],
 });
 
-const lidoItalic = localFont({
-  src: "../public/LidoSTFItalic.ttf",
-  variable: "--lido-italic",
-  style: "italic",
-});
-
-const fontClasses = [iosevka, lido, lidoItalic]
-  .map((f) => f.variable)
-  .join(" ");
+const fontClasses = [iosevka, lido].map((f) => f.variable).join(" ");
 
 export default function RootLayout({
   children,
