@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import localFont from "next/font/local";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -8,6 +9,26 @@ export const metadata: Metadata = {
     images: "https://i.ohlasy.info/i/bce5f08a.jpg",
   },
 };
+
+const iosevka = localFont({
+  src: "../public/IosevkaCharon-Medium.ttf",
+  variable: "--iosevka",
+});
+
+const lido = localFont({
+  src: "../public/LidoSTF.ttf",
+  variable: "--lido",
+});
+
+const lidoItalic = localFont({
+  src: "../public/LidoSTFItalic.ttf",
+  variable: "--lido-italic",
+  style: "italic",
+});
+
+const fontClasses = [iosevka, lido, lidoItalic]
+  .map((f) => f.variable)
+  .join(" ");
 
 export default function RootLayout({
   children,
@@ -27,7 +48,7 @@ export default function RootLayout({
           defer
         />
       </head>
-      <body>
+      <body className={fontClasses}>
         <main>{children}</main>
       </body>
     </html>

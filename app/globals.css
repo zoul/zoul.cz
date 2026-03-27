@@ -7,10 +7,16 @@
 
 body {
   padding: 20px;
-  font-family: Helvetica, sans-serif;
+  font-family: var(--lido);
   line-height: 1.4em;
   color: var(--color-black);
   background-color: var(--color-beige);
+  font-size: 18px;
+}
+
+i,
+em {
+  font-family: var(--lido-italic);
 }
 
 main {
@@ -22,6 +28,15 @@ h1,
 h2 {
   line-height: 1.2em;
   color: var(--color-dusk);
+  font-family: var(--iosevka);
+  font-weight: 400;
+  text-transform: lowercase;
+  font-size: 30px;
+}
+
+h1 {
+  color: var(--color-cherry);
+  text-transform: uppercase;
 }
 
 a {
