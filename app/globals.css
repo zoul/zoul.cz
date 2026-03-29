@@ -54,7 +54,14 @@ a.heading-anchor {
 
 p {
   hyphens: auto;
-  hyphenate-limit-chars: 10 4 4;
+  hyphenate-limit-chars: 10 4 3;
+}
+
+hr {
+  border: none;
+  width: 10ex;
+  border-top: 6px solid var(--color-cherry);
+  margin: 30px auto 30px 0;
 }
 
 .table-of-contents {
