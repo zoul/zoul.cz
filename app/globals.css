@@ -52,6 +52,11 @@ a.heading-anchor {
   }
 }
 
+p {
+  hyphens: auto;
+  hyphenate-limit-chars: 10 4 4;
+}
+
 .table-of-contents {
   list-style: none;
   margin-left: 0;
