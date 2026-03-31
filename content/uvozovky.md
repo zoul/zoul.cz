@@ -12,3 +12,7 @@ Francouzi je ve skutečnosti píší « naopak », zobáčky ven a s mezerami, a
 Neboli anglické dvojité uvozovky. Otevírací ([Unicode 201C](http://www.fileformat.info/info/unicode/char/201C)) má tvar 66 a je nahoře. Uzavírací ([Unicode 201D](http://www.fileformat.info/info/unicode/char/201D)) má tvar 99 a je nahoře. Windows: Alt+0147, Alt+0148. Mac (na české klávesnici): Alt+Shift+H, Alt+Shift+J.
 ## English ‘single’ quotes
 Neboli anglické jednoduché uvozovky. Otevírací ([Unicode 2018](http://www.fileformat.info/info/unicode/char/2018)) má tvar 6 a je nahoře. Uzavírací ([Unicode 2019](http://www.fileformat.info/info/unicode/char/2019)) má tvar 9 a je nahoře. Windows: Alt+0145,Alt+0146. Mac (na české klávesnici): Alt+H, Alt+J.
+
+---
+
+Věnováno Honzovi Javorkovi, největšímu fanouškovi této stránky.
