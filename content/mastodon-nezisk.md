@@ -34,6 +34,10 @@ Taky se můžete přestěhovat na svůj vlastní server. Tam pak máte opravdu p
 
 Bluesky je taky „něco jako Twitter“, ale tím podobnosti končí. Zatímco Mastodon tvoří desítky tisíc navzájem propojených komunit, Bluesky je klasická centralizovaná aplikace financovaná rizikovým kapitálem. Pokud se vlastník rozhodne Bluesky zavřít nebo změnit pravidla hry, máte smůlu. U Mastodonu jste vlastník vy.
 
+## Proč zrovna neziskovky?
+
+Velká část (většina?) neziskovek je postavená na nějakých hodnotách, chce *zlepšit svět*. Současné sociální sítě jdou zhusta proti tomuhle cíli. Chápu, že ani silně hodnotově stavěné organizace si nemůžou dovolit ze sítí jen tak odejít – ale poskytnout svému publiku alternativu ve formě Mastodonu ano.
+
 ---
 
 Poslední aktualizace v dubnu 2026. Máte otázky nebo připomínky? Napište mi na <zoul@zoul.cz>. Na Mastodonu jsem jako [boskovice.social/@zoul](https://boskovice.social/@zoul).
