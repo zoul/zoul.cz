@@ -39,7 +39,7 @@ export default function RootLayout({
         <meta name="fediverse:creator" content="@zoul@boskovice.social" />
         <script
           data-domain="zoul.cz"
-          src="https://plausible.io/js/script.js"
+          src="https://plausible.io/js/script.outbound-links.js"
           defer
         />
       </head>
