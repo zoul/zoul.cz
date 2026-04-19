@@ -27,6 +27,7 @@ h2 {
   font-weight: 400;
   text-transform: lowercase;
   font-size: 30px;
+  margin-bottom: 0;
 }
 
 h1 {
@@ -36,6 +37,8 @@ h1 {
 
 a {
   color: var(--color-link);
+  text-decoration-color: var(--color-cherry);
+  text-underline-offset: 2px;
 }
 
 a:hover {
@@ -62,7 +65,7 @@ hr {
   border: none;
   width: 10ex;
   border-top: 6px solid var(--color-cherry);
-  margin: 30px auto 30px 0;
+  margin: 30px auto 20px 0;
 }
 
 .table-of-contents {
