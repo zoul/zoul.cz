@@ -32,7 +32,7 @@ Taky se můžete přestěhovat na svůj vlastní server. Tam pak máte opravdu p
 
 ## Jak to vypadá v praxi?
 
-Jestli chcete vidět, jak organizace vedou své profily na Mastodonu, můžete se podívat třeba na účet [Evropské komise](https://ec.social-network.europa.eu/@EUCommission) (stovky tisíc sledujících), v českém prostředí třeba na profil organizace [Iuridicum Remedium](https://witter.cz/@iurecz) (stovky sledujících).
+Jestli chcete vidět, jak organizace vedou své profily na Mastodonu, můžete se podívat třeba na účet [Evropské komise](https://ec.social-network.europa.eu/@EUCommission) nebo podcastu [The Europeans](https://mastodon.social/@europeanspodcast), v českém prostředí třeba na profil organizace [Iuridicum Remedium](https://witter.cz/@iurecz) nebo [Českého statistického úřadu](https://mastodonczech.cz/@czstatistika).
 
 ## Proč ne Bluesky?
 
