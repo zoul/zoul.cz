@@ -30,6 +30,10 @@ Profil si můžete založit i jinde, [seznam větších serverů najdete napří
 
 Taky se můžete přestěhovat na svůj vlastní server. Tam pak máte opravdu pod kontrolou úplně všechno. Není to složité a může to stát méně než „ověřený účet“ na jiných sítích. Server může běžet někde na vašem počítači nebo třeba na klíč na [službě Masto.host](https://masto.host). Anebo vám s tím může poradit někdo z těch, co se kolem českého Mastodonu motají, například [spolek NoLog](https://nolog.cz) nebo [IT družstvo druit](https://druit.org).
 
+## Jak to vypadá v praxi?
+
+Jestli chcete vidět, jak organizace vedou své profily na Mastodonu, můžete se podívat třeba na účet [Evropské komise](https://ec.social-network.europa.eu/@EUCommission) (stovky tisíc sledujících), v českém prostředí třeba na profil organizace [Iuridicum Remedium](https://witter.cz/@iurecz) (stovky sledujících).
+
 ## Proč ne Bluesky?
 
 Bluesky je taky „něco jako Twitter“, ale tím podobnosti končí. Zatímco Mastodon tvoří desítky tisíc navzájem propojených komunit, Bluesky je klasická centralizovaná aplikace financovaná rizikovým kapitálem. Pokud se vlastník rozhodne Bluesky zavřít nebo změnit pravidla hry, máte smůlu. U Mastodonu jste vlastník vy.
