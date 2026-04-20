@@ -33,13 +33,23 @@ export default async function PostPage({ params }: Props) {
   const ast = Markdoc.parse(source);
   const content = Markdoc.transform(ast, markdownConfig);
   const headings = collectHeadings(content);
-  return Markdoc.renderers.react(content, React, {
+  const renderedContent = Markdoc.renderers.react(content, React, {
     components: {
       TableOfContents: TableOfContents(headings),
       Heading,
       Link,
     },
   });
+  return (
+    <div>
+      {slug !== "index" && (
+        <div className="breadcrumbs">
+          <Link href="/">← zoul.cz</Link>
+        </div>
+      )}
+      {renderedContent}
+    </div>
+  );
 }
 
 //
