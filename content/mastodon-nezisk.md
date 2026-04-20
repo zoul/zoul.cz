@@ -42,6 +42,8 @@ Bluesky je taky „něco jako Twitter“, ale tím podobnosti končí. Zatímco 
 
 Velká část (většina?) neziskovek je postavená na nějakých hodnotách, chce *zlepšit svět*. Současné sociální sítě jdou zhusta proti tomuhle cíli. Chápu, že ani silně hodnotově stavěné organizace si nemůžou dovolit ze sítí jen tak odejít – ale poskytnout svému publiku alternativu ve formě Mastodonu ano.
 
+Ostatně – pokud s vámi někdo chce být v kontaktu, aby vám pomohl *zlepšit svět*, je fér ho kvůli tomu nutit k registraci na platformy, které obratem prodají jeho osobní data a pozornost bůhvíkomu?
+
 ---
 
 Poslední aktualizace v dubnu 2026. Máte otázky nebo připomínky? Napište mi na <zoul@zoul.cz>. Na Mastodonu jsem jako [boskovice.social/@zoul](https://boskovice.social/@zoul).
