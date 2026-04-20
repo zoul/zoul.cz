@@ -4,6 +4,7 @@ import { join } from "node:path";
 import Markdoc from "@markdoc/markdoc";
 import matter from "gray-matter";
 import type { Metadata } from "next";
+import Link from "next/link";
 import { notFound } from "next/navigation";
 import React from "react";
 import { optional, record, string } from "typescript-json-decoder";
@@ -36,6 +37,7 @@ export default async function PostPage({ params }: Props) {
     components: {
       TableOfContents: TableOfContents(headings),
       Heading,
+      Link,
     },
   });
 }

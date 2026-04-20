@@ -79,6 +79,16 @@ export function collectHeadings(
 export const markdownConfig: Config = {
   nodes: {
     heading,
+    link: {
+      // Use next/link for hypertext links
+      render: "Link",
+      attributes: {
+        href: {
+          type: "String",
+          required: true,
+        },
+      },
+    },
   },
   tags: {
     table_of_contents,
