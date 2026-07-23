@@ -16,12 +16,7 @@ V Boskovicích jsme též založili a provozujeme kulturní a komunitní centrum
 
 Hodně textů jsem [napsal pro naše noviny](https://ohlasy.info/clanky/?autor=Tomáš+Znamenáček). Asi pro vás nejsou extra relevantní, pokud nejste z Boskovic nebo okolí. (Možná ani v opačném případě :)
 
-Zajímají mě sociální sítě, pro časopis Centra experimentálního divadla jsem napsal delší text [Sociální sítě jako společenská infrastruktura](https://www.ced-brno.cz/cs/article/socialni-site-jako-spolecenska-infrastruktura). Různé sociální sítě nepravidelně haním v Deníku Referendum: [nejdřív Twitter](https://denikreferendum.cz/clanek/34605-soucasna-debata-o-twitteru-miji-podstatu-problemu), [pak Threads](https://denikreferendum.cz/clanek/35415-rozdil-mezi-twitterem-a-threads-je-pouze-v-tom-komu-plynou-prijmy-z-reklamy) a do třetice jsem pochyboval o nějaké „[evropské veřejnoprávní síti](https://denikreferendum.cz/clanek/238650-proti-zlym-platformam-postavme-skutecnou-socialni-sit)“.
-
-Přímo tady na webu najdete následující texty:
-
-- [Jak správně psát uvozovky](/uvozovky)
-- [Proč by vaše neziskovka měla být na Mastodonu](/mastodon-nezisk)
+Zajímají mě sociální sítě, pro časopis Centra experimentálního divadla jsem napsal delší text [Sociální sítě jako společenská infrastruktura](https://www.ced-brno.cz/cs/article/socialni-site-jako-spolecenska-infrastruktura). Různé sociální sítě nepravidelně haním v Deníku Referendum: [nejdřív Twitter](https://denikreferendum.cz/clanek/34605-soucasna-debata-o-twitteru-miji-podstatu-problemu), [pak Threads](https://denikreferendum.cz/clanek/35415-rozdil-mezi-twitterem-a-threads-je-pouze-v-tom-komu-plynou-prijmy-z-reklamy) a do třetice jsem pochyboval o nějaké „[evropské veřejnoprávní síti](https://denikreferendum.cz/clanek/238650-proti-zlym-platformam-postavme-skutecnou-socialni-sit)“. Fandím Mastodonu a napsal jsem, [proč by vaše neziskovka měla být na Mastodonu](/mastodon-nezisk).
 
 ## Kontakt
 
