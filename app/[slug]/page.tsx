@@ -104,11 +104,13 @@ export async function generateStaticParams(): Promise<Params[]> {
       // Strip file suffix
       .replace(/\.md$/, "");
   const paths = await getFilesRecursively("content");
-  return paths
-    .map(toSlug)
-    // `index` is served by the home page (`/`), so don't emit `/index/` too
-    .filter((slug) => slug !== "index")
-    .map((slug) => ({ slug }));
+  return (
+    paths
+      .map(toSlug)
+      // `index` is served by the home page (`/`), so don't emit `/index/` too
+      .filter((slug) => slug !== "index")
+      .map((slug) => ({ slug }))
+  );
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {

@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
-import PostPage, { generateMetadata as generatePostMetadata } from "./[slug]/page";
+import PostPage, {
+  generateMetadata as generatePostMetadata,
+} from "./[slug]/page";
 
 /**
  * Home page
