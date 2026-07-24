@@ -1,5 +1,7 @@
 ---
 title: Tomáš Znamenáček
+description: "Dělám věci, občas to funguje, občas ne"
+image: https://i.ohlasy.info/i/bce5f08a.jpg
 ---
 
 Ahoj, já jsem Tomáš. Dělám věci. Občas to funguje, občas ne.
