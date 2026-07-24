@@ -9,11 +9,7 @@ import PostPage, { generateMetadata as generatePostMetadata } from "./[slug]/pag
  * exports.
  */
 export default function Home() {
-  return PostPage({
-    params: Promise.resolve({
-      slug: "index",
-    }),
-  });
+  return <PostPage params={Promise.resolve({ slug: "index" })} />;
 }
 
 export function generateMetadata(): Promise<Metadata> {
