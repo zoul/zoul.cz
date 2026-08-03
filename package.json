@@ -10,7 +10,7 @@
     "format": "biome format --write"
   },
   "dependencies": {
-    "next": "16.2.11",
+    "next": "^16.2.12",
     "react": "19.2.8",
     "react-dom": "19.2.8"
   },
@@ -21,7 +21,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "gray-matter": "^4.0.3",
-    "typescript": "^7",
+    "typescript": "7.0.2",
     "typescript-json-decoder": "^1.0.11"
   }
 }
