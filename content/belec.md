@@ -10,7 +10,7 @@ Každé léto pořádá [Českobratrská církev evangelická](https://e-cirkev.
 
 ## Fotky
 
-- [Fotogalerie z ročníku 2025](https://fotky.zoul.cz/?t=UPGREJTJDA#GbqbeitgxAAPmbDgfFnAvyjFAMFtkmEse5cpgyL3nVgD)
+- [Fotogalerie z ročníku 2026](https://fotky.zoul.cz/?t=UPGREJTJDA#GbqbeitgxAAPmbDgfFnAvyjFAMFtkmEse5cpgyL3nVgD)
 - [Fotogalerie z ročníku 2025](https://fotky.zoul.cz/?t=UMJV4E3CJU#AP5iMtVzwe7dCXb5Wv9N3c3ZyA223mujjY8fAQY3fwvW)
 - [Fotogalerie z ročníku 2024](https://fotky.zoul.cz/?t=7HJR2PFWND#HgfNVYYJKwxdz4orrBPeqzsJd497bLp3o58zo56R7R3P)
 - [Fotogalerie z ročníku 2023](https://fotky.zoul.cz/?t=FHNYTHUYRT#AuxTXYr9HLRFJZZcF5RfuLk6BMMTQkFonhH38j3sXy77)
